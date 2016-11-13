@@ -2,8 +2,8 @@ import React from 'react';
 
 export default () => {
   return (
-    <div>
-      Super Special Recipie
+    <div className="recipe-list">
+      <h4>Super Special Recipe</h4>
       <ul>
         <li>1 Cup Salt</li>
         <li>2 Cups Pepper</li>
