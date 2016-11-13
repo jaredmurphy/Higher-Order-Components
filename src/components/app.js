@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import Header from './header';
 
 export default class App extends Component {
   render() {
     return (
-      <div>Your Pleasant Ghost evironment is set up correctly.</div>
+      <Header />
     );
   }
 }

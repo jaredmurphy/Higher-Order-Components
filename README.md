@@ -1,24 +1,15 @@
-#Pleasant Ghost
-Boilerplate that handles Node.js environment set up so you can start developing your front end NOW.
+# Higher Order Components
+An authentication app built with React & Redux to learn more about Higher Order Components in React
 
-###What You Get
-* React, React-DOM, React-Router
-* Redux, Redux-Promise, Redux-Form
-* Babel
-* Webpack
-* Axios
-* jQuery
-* Materialize
-* Lodash
-* Mocha
-* Chai
+This app does not have a backend component, so it fakes a server-side authentication process by returning a boolean value from the Redux store. 
 
-###Usage
+#### Features
+* Users are able to sign in and log out
+* Users are not able to visit resources route until logged in 
+
+#### Usage
 - Clone this repo
 - npm install
 - npm start
 - Go to localhost:8080
-- See your first working React component in action
 
-###Contribute
-Fork, make changes, submit pull request.
