@@ -21,6 +21,7 @@ describe('App' , () => {
     it('shows a list of resources to users who are signed in', () => {
       expect(component.find('.resources-link')).to.exist;
       expect(component).to.contain('Home');
+      expect(component).to.contain('Sign Out');
 
       /////////////////////////////////////////////////
       // the expect statements below are both failing//
@@ -30,5 +31,5 @@ describe('App' , () => {
      expect(component.find('.recipe-list')).to.exist;
     });
 
-  }); // ends describe signing in  and clicking resources
+  }); // ends describe signing in and clicking resources
 }); // ends describe app
